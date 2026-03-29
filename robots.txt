@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /printables/coloring/
 
 Sitemap: https://birds.family/sitemap.xml
