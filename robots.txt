@@ -1,9 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /printables/coloring/
 
-# Sitemap (add your sitemap URL when you create one)
-# Sitemap: https://souvenirbird.com/sitemap.xml
-
-# Disallow admin or temporary directories if you add them
-# Disallow: /admin/
-# Disallow: /temp/
+Sitemap: https://birds.family/sitemap.xml
