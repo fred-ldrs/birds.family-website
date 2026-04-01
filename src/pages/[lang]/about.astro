@@ -1,0 +1,60 @@
+---
+/**
+ * /src/pages/[lang]/about.astro
+ * Generated routes: /en/about/, /de/about/, /fr/about/
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getLanguagePaths } from '../../utils/i18n.js';
+
+import en from '../../locales/en.json';
+import de from '../../locales/de.json';
+import fr from '../../locales/fr.json';
+
+const locales = { en, de, fr };
+
+export function getStaticPaths() {
+  return getLanguagePaths();
+}
+
+const { lang } = Astro.params as { lang: 'en' | 'de' | 'fr' };
+const t = locales[lang];
+---
+<BaseLayout lang={lang} t={t} pageMeta={t.about.meta} currentPath="about/">
+
+  <header class="hub-hero" style="padding: var(--space-lg) 0;">
+    <div class="container">
+      <h1 style="font-size: 2rem; margin-bottom: 0;">{t.about.headline}</h1>
+    </div>
+  </header>
+
+  <main class="about-page">
+    <div class="container">
+      <div class="about-content">
+
+        <p class="story-eyebrow">{t.about.storyEyebrow}</p>
+        <p class="about-text">
+          {t.about.storyText.split('\n').map((line: string, i: number) => (
+            <>{line}{i < t.about.storyText.split('\n').length - 1 && <br />}</>
+          ))}
+        </p>
+
+        <hr class="about-divider" />
+
+        <p class="story-eyebrow">{t.about.flockEyebrow}</p>
+        <p class="about-text">{t.about.flockIntro}</p>
+        <p class="about-text about-birds">
+          {t.about.flockText.split('\n').map((line: string, i: number) => (
+            <>{line}{i < t.about.flockText.split('\n').length - 1 && <br />}</>
+          ))}
+        </p>
+        <p class="about-text">
+          {t.about.flockOutro.split('\n').map((line: string, i: number) => (
+            <>{line}{i < t.about.flockOutro.split('\n').length - 1 && <br />}</>
+          ))}
+        </p>
+
+      </div>
+    </div>
+  </main>
+
+</BaseLayout>

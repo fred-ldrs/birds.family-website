@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "birds.family – Une famille d'oiseaux pour votre famille",
+    "description": "birds.family est une collection de petites applications ciblées – chacune conçue pour résoudre un problème précis. Hors ligne, privée, simple."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "coloring": "Coloriages"
+  },
+  "hero": {
+    "headline": "birds.family",
+    "subtitle": "Une famille d'oiseaux pour votre famille",
+    "imgAlt": "Une famille d'oiseaux posée sur une branche"
+  },
+  "apps": {
+    "sectionLabel": "Nos applications",
+    "statusLive": "Disponible",
+    "statusSoon": "Bientôt",
+    "souvenirbird": {
+      "description": "Un souvenir par jour. Un espace doux pour les parents qui souhaitent capturer les petits moments de l'enfance. Hors ligne & privé."
+    },
+    "bebebirdie": {
+      "description": "Un espace doux pour aider les parents à bercer leurs petits vers un sommeil paisible. Hors ligne & privé."
+    },
+    "dadbird": {
+      "description": "DadBird aide pour les petites tâches pratiques de la vie de famille : suivi des tailles, outils simples, sons pour s'endormir. Hors ligne & privé."
+    },
+    "mamanbird": {
+      "description": "Croissance, fièvre, pointures et plus. Un assistant du quotidien pour les parents. Hors ligne & privé."
+    },
+    "itembird": {
+      "description": "ItemBird gère les objets, l'inventaire et les affaires. Hors ligne & privé."
+    },
+    "moreBirds": {
+      "headline": "D'autres oiseaux arrivent",
+      "description": "De nouvelles applications sont dans le nid. Restez à l'écoute."
+    }
+  },
+  "story": {
+    "eyebrow": "L'Histoire",
+    "text": "Les Oiseaux ont commencé comme une idée simple :\nde petits assistants doux pour les moments du quotidien en famille.\nChaque oiseau porte un but.\nChacun résout une petite chose.\nEnsemble, ils forment une petite famille tranquille — faite pour la vôtre.",
+    "cta": "L'histoire derrière les oiseaux →"
+  },
+  "footer": {
+    "tagline": "Petites applications. Un seul but chacune.",
+    "privacy": "Politique de confidentialité",
+    "imprint": "Mentions légales",
+    "copyright": "© 2026 birds.family",
+    "madeBy": "Fait par",
+    "poweredBy": "Propulsé par",
+    "footerImgAlt": ""
+  },
+  "souvenirbird": {
+    "meta": {
+      "title": "SouvenirBird – Un souvenir par jour",
+      "description": "SouvenirBird est une application simple et douce pour que les parents capturent les moments quotidiens de l'enfance. Hors ligne, privée, sans compte."
+    },
+    "headline": "Un souvenir par jour",
+    "subtitle": "Un espace doux pour les parents qui souhaitent capturer les petits moments de l'enfance. Un souvenir suffit.",
+    "lead": "SouvenirBird est une application simple et douce pour que les parents capturent les petits moments de la vie de leurs enfants. Un souvenir suffit – mais vous pouvez en ajouter autant que vous voulez. Hors ligne, privée, sans compte. Rapide, légère, chaleureuse et parfaite pour le quotidien.",
+    "googlePlay": "Disponible sur Google Play",
+    "features": {
+      "f1": { "title": "Un souvenir par jour", "text": "Un souvenir suffit pour capturer ce qui compte. Sans pression, sans surcharge – mais ajoutez-en plus quand vous voulez." },
+      "f2": { "title": "Hors ligne & privée", "text": "Vos souvenirs restent sur votre appareil. Pas de cloud, pas de compte, pas de suivi. Complètement privé." },
+      "f3": { "title": "Conçue pour les parents", "text": "Créée par des parents, pour des parents. Simple, chaleureuse et conçue pour la vie de famille bien remplie." },
+      "f4": { "title": "Simple, chaleureuse, épurée", "text": "Pas de distractions, pas de complexité. Juste un espace doux pour se souvenir de ce qui compte." }
+    },
+    "footerTagline": "Conçue pour les parents, par des parents."
+  },
+  "about": {
+    "meta": {
+      "title": "À propos – birds.family",
+      "description": "L'histoire derrière birds.family — de petites applications ciblées pour les moments du quotidien en famille."
+    },
+    "headline": "À propos",
+    "storyEyebrow": "L'Histoire",
+    "storyText": "Les Oiseaux ont commencé comme une idée simple :\nde petits assistants doux pour les moments du quotidien en famille.\nChaque oiseau porte un but.\nChacun résout une petite chose.\nEnsemble, ils forment une petite famille tranquille — faite pour la vôtre.",
+    "flockEyebrow": "Le Groupe",
+    "flockIntro": "Chaque oiseau a un rôle.",
+    "flockText": "Le hibou veille sur la nuit.\nLa colombe porte les souvenirs.\nLe rouge-gorge apporte la chaleur.\nLa mésange aide au quotidien.\nLa pie garde ce qui compte.",
+    "flockOutro": "Un petit groupe, chacun avec un but.\nUne famille d'oiseaux pour la vôtre."
+  },
+  "bebebirdie": {
+    "meta": {
+      "title": "BébéBirdie – Sons apaisants pour un meilleur sommeil de bébé",
+      "description": "BébéBirdie aide votre bébé à s'endormir avec des sons doux et apaisants. Hors ligne, sans compte."
+    },
+    "headline": "Sons apaisants pour un meilleur sommeil de bébé",
+    "subtitle": "Des sons doux pour aider votre bébé à s'endormir paisiblement. Doux, apaisant et conçu pour les tout-petits.",
+    "lead": "BébéBirdie aide votre bébé à s'endormir avec des sons doux et apaisants. L'application offre une collection paisible de bruits nocturnes, d'ambiances douces et de tonalités apaisantes conçues pour détendre les nourrissons et créer une routine de coucher réconfortante. Avec son interface simple et son adorable thème de hibou, BébéBirdie facilite l'heure du coucher pour les bébés et les parents.",
+    "googlePlay": "Disponible sur Google Play",
+    "features": {
+      "f1": { "title": "Sons doux et apaisants", "text": "Une collection paisible de bruits nocturnes, d'ambiances douces et de tonalités apaisantes pour détendre votre bébé." },
+      "f2": { "title": "Mode boucle", "text": "Lecture continue et ininterrompue toute la nuit – pour ne plus avoir à toucher votre téléphone." },
+      "f3": { "title": "Thème hibou douillet", "text": "Design de hibou adorable et atmosphère calme et étoilée qui mettent les bébés – et les parents – en humeur de sommeil." },
+      "f4": { "title": "Fonctionne hors ligne", "text": "Pas d'internet nécessaire la nuit. Simple, intuitif et complètement privé – aucun compte requis." }
+    },
+    "footerTagline": "Offrez à votre bébé une nuit paisible."
+  },
+  "mamanbird": {
+    "meta": {
+      "title": "MamanBird – Croissance, fièvre & pointures en un coup d'œil",
+      "description": "MamanBird est un assistant quotidien calme pour les parents. Suivez la croissance, la fièvre et les pointures – simple, privé, sans compte."
+    },
+    "headline": "Votre assistant quotidien calme pour les parents",
+    "subtitle": "Croissance, fièvre, pointures et plus – simple, privé, sans compte. Toutes les données restent sur votre appareil.",
+    "lead": "Les enfants grandissent vite, et beaucoup de petits détails se perdent dans le rush quotidien. MamanBird vous aide à garder le fil : Quand était la dernière fièvre ? Quelle pointure convient maintenant ? Quelle est la taille de votre enfant ? Hors ligne, privé, sans compte. Ouvrez-le, ajoutez une entrée, c'est fait.",
+    "googlePlay": "Disponible sur Google Play",
+    "features": {
+      "f1": { "title": "Croissance, fièvre & pointures", "text": "Toutes les mesures importantes de votre enfant en un seul endroit. Facile à noter, toujours prêt à consulter." },
+      "f2": { "title": "Hors ligne & privé", "text": "Toutes les données restent sur votre appareil. Pas de cloud, pas de compte, pas de suivi. Complètement privé." },
+      "f3": { "title": "Conçu pour plusieurs enfants", "text": "Gérez les données de tous vos enfants dans une seule application – clairement organisé et bien séparé." },
+      "f4": { "title": "Clair & épuré", "text": "Intentionnellement minimal – pas de publicités, pas de bruit. Ouvrez-le, ajoutez une entrée, c'est fait." }
+    },
+    "footerTagline": "Pour les parents qui préfèrent des outils simples et ciblés."
+  },
+  "coloring": {
+    "meta": {
+      "title": "Coloriages gratuits pour enfants – birds.family",
+      "description": "Des coloriages gratuits pour enfants par birds.family. Publiés sur Pinterest – suivez-nous pour être notifié des nouvelles pages."
+    },
+    "headline": "Coloriages gratuits pour enfants",
+    "text": "De nouveaux coloriages arrivent bientôt — publiés directement sur Pinterest.\nSuivez-nous là-bas pour ne jamais manquer une nouvelle page.",
+    "pinterestAlt": "Suivre sur Pinterest",
+    "pinterestLabel": "Suivre birds.family sur Pinterest",
+    "backLink": "← retour à birds.family"
+  }
+}

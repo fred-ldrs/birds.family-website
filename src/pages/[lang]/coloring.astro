@@ -1,0 +1,113 @@
+---
+/**
+ * /src/pages/[lang]/coloring.astro
+ * Generated routes: /en/coloring/, /de/coloring/, /fr/coloring/
+ * Replaces: printables/coloring/index.html
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getLanguagePaths } from '../../utils/i18n.js';
+
+import en from '../../locales/en.json';
+import de from '../../locales/de.json';
+import fr from '../../locales/fr.json';
+
+const locales = { en, de, fr };
+
+export function getStaticPaths() {
+  return getLanguagePaths();
+}
+
+const { lang } = Astro.params as { lang: 'en' | 'de' | 'fr' };
+const t = locales[lang];
+const s = t.coloring;
+---
+<BaseLayout lang={lang} t={t} pageMeta={s.meta} currentPath="coloring/">
+
+  <main class="coloring-placeholder">
+    <div class="coloring-placeholder-inner">
+      <div class="coloring-placeholder-icon" aria-hidden="true">🎨</div>
+      <h1>{s.headline}</h1>
+      <p>
+        {s.text.split('\n').map((line: string, i: number) => (
+          <>{line}{i < s.text.split('\n').length - 1 && <br />}</>
+        ))}
+      </p>
+      <a
+        href="https://pinterest.com/birds_family/"
+        class="pinterest-follow-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={s.pinterestLabel}
+      >
+        <img
+          src="/assets/pinterest/FollowOnPinterest_InteractiveLockup-GrayContainer.svg"
+          alt={s.pinterestAlt}
+        />
+      </a>
+      <br />
+      <a href={`/${lang}/`} class="back-link">{s.backLink}</a>
+    </div>
+  </main>
+
+</BaseLayout>
+
+<style>
+  .coloring-placeholder {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--space-xxl) var(--space-sm);
+  }
+
+  .coloring-placeholder-inner {
+    max-width: 540px;
+  }
+
+  .coloring-placeholder-icon {
+    font-size: 4rem;
+    margin-bottom: var(--space-md);
+    line-height: 1;
+  }
+
+  .coloring-placeholder h1 {
+    font-size: 2.2rem;
+    margin-bottom: var(--space-sm);
+  }
+
+  .coloring-placeholder p {
+    color: var(--gray-medium);
+    font-size: 1.1rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .pinterest-follow-btn {
+    display: inline-block;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: opacity 0.2s ease;
+  }
+
+  .pinterest-follow-btn img {
+    height: 48px;
+    width: auto;
+    display: block;
+  }
+
+  .pinterest-follow-btn:hover {
+    opacity: 0.85;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: var(--space-lg);
+    color: var(--mint-primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+</style>

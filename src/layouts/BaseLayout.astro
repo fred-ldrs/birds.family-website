@@ -1,0 +1,138 @@
+---
+/**
+ * BaseLayout.astro
+ *
+ * Props:
+ *   lang       – current language code ('en' | 'de' | 'fr')
+ *   t          – full translation object for the current language
+ *   pageMeta   – optional override for { title, description } (used by sub-pages)
+ *   currentPath – path segment after /[lang]/, e.g. '' for home, 'about/' for about
+ */
+import { LANGUAGES, canonicalUrl } from '../utils/i18n.js';
+
+export interface Props {
+  lang: string;
+  t: Record<string, any>;
+  pageMeta?: { title: string; description: string };
+  currentPath?: string;
+}
+
+const { lang, t, pageMeta, currentPath = '' } = Astro.props;
+
+const title       = pageMeta?.title       ?? t.meta.title;
+const description = pageMeta?.description ?? t.meta.description;
+const canonical   = canonicalUrl(lang, currentPath);
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; script-src 'self'; connect-src 'self';"
+  />
+
+  <title>{title}</title>
+  <meta name="description" content={description} />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image"       content="/images/og-image.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href={canonical} />
+
+  <!-- hreflang for every supported language -->
+  {LANGUAGES.map((l) => (
+    <link rel="alternate" hreflang={l} href={canonicalUrl(l, currentPath)} />
+  ))}
+  <link rel="alternate" hreflang="x-default" href={canonicalUrl('en', currentPath)} />
+
+  <link rel="stylesheet"          href="/css/styles.css" />
+  <link rel="icon"   type="image/png" href="/images/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png" />
+  <link rel="manifest" href="/manifest.json" />
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a href={`/${lang}/`} class="site-nav-logo">birds.family</a>
+      <ul class="site-nav-links">
+        <li><a href={`/${lang}/`}           aria-current={currentPath === ''        ? 'page' : undefined}>{t.nav.home}</a></li>
+        <li><a href={`/${lang}/about/`}     aria-current={currentPath === 'about/'  ? 'page' : undefined}>{t.nav.about}</a></li>
+        <li><a href={`/${lang}/coloring/`}  aria-current={currentPath === 'coloring/' ? 'page' : undefined}>{t.nav.coloring}</a></li>
+      </ul>
+
+      <!-- Language Switcher -->
+      <nav class="lang-switcher" aria-label="Language switcher">
+        {LANGUAGES.map((l) => (
+          <a
+            href={`/${l}/${currentPath}`}
+            aria-current={l === lang ? 'true' : undefined}
+            hreflang={l}
+            class:list={['lang-link', { active: l === lang }]}
+          >
+            {l.toUpperCase()}
+          </a>
+        ))}
+      </nav>
+    </div>
+  </nav>
+
+  <!-- Page content injected here -->
+  <slot />
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-birds">
+        <img src="/images/header_var2_cut.png" alt={t.footer.footerImgAlt} aria-hidden="true" />
+      </div>
+      <p class="footer-tagline">{t.footer.tagline}</p>
+      <nav class="footer-links">
+        <a href={`/${lang}/privacy/`}>{t.footer.privacy}</a>
+        <span class="separator">·</span>
+        <a href={`/${lang}/imprint/`}>{t.footer.imprint}</a>
+      </nav>
+      <p class="footer-copyright">{t.footer.copyright}</p>
+      <p class="footer-copyright">
+        {t.footer.madeBy} <a href="https://lueders.app" target="_blank" rel="noopener noreferrer">lueders.app</a>
+        — {t.footer.poweredBy} <a href="https://lueders.solutions" target="_blank" rel="noopener noreferrer">lueders.solutions</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<style>
+  /* ── Language Switcher ─────────────────────────────────────── */
+  .lang-switcher {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .lang-link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--gray-medium);
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    transition: color 0.2s, background 0.2s;
+  }
+
+  .lang-link:hover,
+  .lang-link.active {
+    color: var(--mint-primary);
+    background: var(--mint-bg-darker);
+  }
+</style>

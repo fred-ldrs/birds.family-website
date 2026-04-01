@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "birds.family – A family of birds for your family",
+    "description": "birds.family is a collection of small, focused apps – each designed to solve one clearly defined problem. Offline, private, simple."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "coloring": "Coloring"
+  },
+  "hero": {
+    "headline": "birds.family",
+    "subtitle": "A family of birds for your family",
+    "imgAlt": "A bird family sitting on a branch"
+  },
+  "apps": {
+    "sectionLabel": "Our apps",
+    "statusLive": "Live",
+    "statusSoon": "Coming soon",
+    "souvenirbird": {
+      "description": "One memory a day. A gentle space for parents to capture the small moments of childhood. Offline & private."
+    },
+    "bebebirdie": {
+      "description": "A gentle space for parents to soothe their little ones into peaceful sleep. Offline & private."
+    },
+    "dadbird": {
+      "description": "DadBird helps with the small, practical tasks of family life: tracking sizes, simple tools, sleep sounds. Offline & private."
+    },
+    "mamanbird": {
+      "description": "Growth, fever, shoe sizes and more. A calm everyday helper for parents. Offline & private."
+    },
+    "itembird": {
+      "description": "ItemBird manages objects, inventory, and belongings. Offline & private."
+    },
+    "moreBirds": {
+      "headline": "More birds coming",
+      "description": "New apps are in the nest. Stay tuned."
+    }
+  },
+  "story": {
+    "eyebrow": "The Story",
+    "text": "The Birds began as a simple idea:\nsmall, gentle helpers for the everyday moments of family life.\nEach bird carries a purpose.\nEach one solves one small thing.\nTogether, they form a quiet little family — made for yours.",
+    "cta": "The story behind the birds →"
+  },
+  "footer": {
+    "tagline": "Small apps. One purpose each.",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "copyright": "© 2026 birds.family",
+    "madeBy": "Made by",
+    "poweredBy": "Powered by",
+    "footerImgAlt": ""
+  },
+  "souvenirbird": {
+    "meta": {
+      "title": "SouvenirBird – One Memory a Day",
+      "description": "SouvenirBird is a simple, loving memory app for parents to capture daily moments of childhood. Offline, private, no account needed."
+    },
+    "headline": "One memory a day",
+    "subtitle": "A gentle space for parents to capture the small moments of childhood. One memory is enough.",
+    "lead": "SouvenirBird is a simple, loving app for parents to capture the small moments of their children's lives. One memory is enough – but you can add as many as you like. Offline, private, without account. Fast, light, warm, and perfect for everyday life.",
+    "googlePlay": "Get it on Google Play",
+    "features": {
+      "f1": { "title": "One memory a day", "text": "One memory is enough to capture what matters. No pressure, no overwhelm – but add more anytime you want." },
+      "f2": { "title": "Offline & private", "text": "Your memories stay on your device. No cloud, no account, no tracking. Completely private." },
+      "f3": { "title": "Designed for parents", "text": "Created by parents, for parents. Simple, warm, and designed for busy family life." },
+      "f4": { "title": "Simple, warm, clutter-free", "text": "No distractions, no complexity. Just a gentle space to remember what matters." }
+    },
+    "footerTagline": "Designed for parents, from parents."
+  },
+  "about": {
+    "meta": {
+      "title": "About – birds.family",
+      "description": "The story behind birds.family — small, focused apps for the everyday moments of family life."
+    },
+    "headline": "About",
+    "storyEyebrow": "The Story",
+    "storyText": "The Birds began as a simple idea:\nsmall, gentle helpers for the everyday moments of family life.\nEach bird carries a purpose.\nEach one solves one small thing.\nTogether, they form a quiet little family — made for yours.",
+    "flockEyebrow": "The Flock",
+    "flockIntro": "Every bird has a role.",
+    "flockText": "The owl watches over the night.\nThe dove carries memories.\nThe robin brings warmth.\nThe blue tit helps with the everyday.\nThe magpie keeps the things that matter.",
+    "flockOutro": "A small flock, each with a purpose.\nA family of birds for your family."
+  },
+  "bebebirdie": {
+    "meta": {
+      "title": "BébéBirdie – Calming Sounds for Better Baby Sleep",
+      "description": "BébéBirdie helps your baby fall asleep with gentle and calming sleep sounds. Offline, no account needed."
+    },
+    "headline": "Calming sounds for better baby sleep",
+    "subtitle": "Gentle sleep sounds to help your baby fall asleep peacefully. Soft, soothing, and designed for little ones.",
+    "lead": "BébéBirdie helps your baby fall asleep with gentle and calming sleep sounds. The app offers a peaceful collection of night noises, soft ambience, and soothing tones designed to relax infants and create a comforting bedtime routine. With its simple interface and adorable owl theme, BébéBirdie makes bedtime easier for both babies and parents.",
+    "googlePlay": "Get it on Google Play",
+    "features": {
+      "f1": { "title": "Soft & calming sleep sounds", "text": "A peaceful collection of night noises, soft ambience, and soothing tones designed to relax your baby." },
+      "f2": { "title": "Loop mode", "text": "Continuous, uninterrupted playback all night long – so you don't have to touch your phone again." },
+      "f3": { "title": "Cozy owl theme", "text": "Adorable owl design and a calm, starry atmosphere that puts babies – and parents – in the mood for sleep." },
+      "f4": { "title": "Works offline", "text": "No internet needed during the night. Simple, intuitive, and completely private – no account required." }
+    },
+    "footerTagline": "Give your baby a peaceful night's sleep."
+  },
+  "mamanbird": {
+    "meta": {
+      "title": "MamanBird – Growth, Fever & Shoe Sizes at a Glance",
+      "description": "MamanBird is a calm everyday helper for parents. Track growth, fever, and shoe sizes – simple, private, no account needed."
+    },
+    "headline": "Your calm everyday helper for parents",
+    "subtitle": "Growth, fever, shoe sizes and more – simple, private, no account needed. All data stays on your device.",
+    "lead": "Children grow fast, and many small details get lost in the everyday rush. MamanBird helps you keep track: When was the last fever? What shoe size fits now? How tall is your child? Offline, private, no account needed. Just open it, add an entry, done.",
+    "googlePlay": "Get it on Google Play",
+    "features": {
+      "f1": { "title": "Growth, fever & shoe sizes", "text": "All the important measurements for your child in one place. Easy to log, always ready to look up." },
+      "f2": { "title": "Offline & private", "text": "All data stays on your device. No cloud, no account, no tracking. Completely private." },
+      "f3": { "title": "Made for multiple kids", "text": "Manage all your children's data in one app – clearly organised and neatly separated." },
+      "f4": { "title": "Clear & clutter-free", "text": "Intentionally minimal – no ads, no noise. Just open it, add an entry, done." }
+    },
+    "footerTagline": "For parents who prefer simple, focused tools."
+  },
+  "coloring": {
+    "meta": {
+      "title": "Free Coloring Pages for Kids – birds.family",
+      "description": "Free coloring pages for kids by birds.family. Published on Pinterest – follow us to get notified when new sheets arrive."
+    },
+    "headline": "Free Coloring Pages for Kids",
+    "text": "New coloring pages coming soon — and published directly on Pinterest.\nFollow us there to never miss a new sheet.",
+    "pinterestAlt": "Follow on Pinterest",
+    "pinterestLabel": "Follow birds.family on Pinterest",
+    "backLink": "← back to birds.family"
+  }
+}

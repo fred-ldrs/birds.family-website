@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "birds.family – Eine Familie von Vögeln für deine Familie",
+    "description": "birds.family ist eine Sammlung kleiner, fokussierter Apps – jede für ein klar definiertes Problem. Offline, privat, einfach."
+  },
+  "nav": {
+    "home": "Start",
+    "about": "Über uns",
+    "coloring": "Ausmalbilder"
+  },
+  "hero": {
+    "headline": "birds.family",
+    "subtitle": "Eine Familie von Vögeln für deine Familie",
+    "imgAlt": "Eine Vogelfamilie sitzt auf einem Ast"
+  },
+  "apps": {
+    "sectionLabel": "Unsere Apps",
+    "statusLive": "Verfügbar",
+    "statusSoon": "Demnächst",
+    "souvenirbird": {
+      "description": "Eine Erinnerung pro Tag. Ein sanfter Ort für Eltern, um die kleinen Momente der Kindheit festzuhalten. Offline & privat."
+    },
+    "bebebirdie": {
+      "description": "Ein sanfter Begleiter, der Eltern hilft, ihre Kleinen in den Schlaf zu wiegen. Offline & privat."
+    },
+    "dadbird": {
+      "description": "DadBird hilft bei den kleinen, praktischen Aufgaben des Familienalltags: Größen verfolgen, einfache Tools, Schlafgeräusche. Offline & privat."
+    },
+    "mamanbird": {
+      "description": "Wachstum, Fieber, Schuhgrößen und mehr. Ein ruhiger Alltagshelfer für Eltern. Offline & privat."
+    },
+    "itembird": {
+      "description": "ItemBird verwaltet Objekte, Inventar und Besitztümer. Offline & privat."
+    },
+    "moreBirds": {
+      "headline": "Weitere Vögel kommen",
+      "description": "Neue Apps sind im Nest. Bleib gespannt."
+    }
+  },
+  "story": {
+    "eyebrow": "Die Geschichte",
+    "text": "Die Vögel begannen als eine einfache Idee:\nkleine, sanfte Helfer für die alltäglichen Momente des Familienlebens.\nJeder Vogel trägt einen Zweck.\nJeder löst eine kleine Sache.\nZusammen bilden sie eine stille kleine Familie — gemacht für deine.",
+    "cta": "Die Geschichte hinter den Vögeln →"
+  },
+  "footer": {
+    "tagline": "Kleine Apps. Je ein Zweck.",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "copyright": "© 2026 birds.family",
+    "madeBy": "Erstellt von",
+    "poweredBy": "Betrieben von",
+    "footerImgAlt": ""
+  },
+  "souvenirbird": {
+    "meta": {
+      "title": "SouvenirBird – Eine Erinnerung pro Tag",
+      "description": "SouvenirBird ist eine einfache, liebevolle Erinnerungs-App für Eltern, um tägliche Momente der Kindheit festzuhalten. Offline, privat, kein Konto nötig."
+    },
+    "headline": "Eine Erinnerung pro Tag",
+    "subtitle": "Ein sanfter Ort für Eltern, um die kleinen Momente der Kindheit festzuhalten. Eine Erinnerung reicht.",
+    "lead": "SouvenirBird ist eine einfache, liebevolle App für Eltern, um die kleinen Momente im Leben ihrer Kinder festzuhalten. Eine Erinnerung reicht – aber du kannst so viele hinzufügen wie du möchtest. Offline, privat, ohne Konto. Schnell, leicht, warm und perfekt für den Alltag.",
+    "googlePlay": "Jetzt bei Google Play",
+    "features": {
+      "f1": { "title": "Eine Erinnerung pro Tag", "text": "Eine Erinnerung reicht, um das Wichtige festzuhalten. Kein Druck, keine Überforderung – aber füge jederzeit mehr hinzu." },
+      "f2": { "title": "Offline & privat", "text": "Deine Erinnerungen bleiben auf deinem Gerät. Keine Cloud, kein Konto, kein Tracking. Vollständig privat." },
+      "f3": { "title": "Für Eltern gemacht", "text": "Von Eltern für Eltern erstellt. Einfach, warm und für den hektischen Familienalltag gestaltet." },
+      "f4": { "title": "Einfach, warm, übersichtlich", "text": "Keine Ablenkungen, keine Komplexität. Nur ein sanfter Ort, um sich an das Wichtige zu erinnern." }
+    },
+    "footerTagline": "Für Eltern, von Eltern."
+  },
+  "about": {
+    "meta": {
+      "title": "Über uns – birds.family",
+      "description": "Die Geschichte hinter birds.family — kleine, fokussierte Apps für die alltäglichen Momente des Familienlebens."
+    },
+    "headline": "Über uns",
+    "storyEyebrow": "Die Geschichte",
+    "storyText": "Die Vögel begannen als eine einfache Idee:\nkleine, sanfte Helfer für die alltäglichen Momente des Familienlebens.\nJeder Vogel trägt einen Zweck.\nJeder löst eine kleine Sache.\nZusammen bilden sie eine stille kleine Familie — gemacht für deine.",
+    "flockEyebrow": "Der Schwarm",
+    "flockIntro": "Jeder Vogel hat eine Rolle.",
+    "flockText": "Die Eule wacht über die Nacht.\nDie Taube trägt Erinnerungen.\nDas Rotkehlchen bringt Wärme.\nDie Blaumeise hilft im Alltag.\nDie Elster bewahrt, was zählt.",
+    "flockOutro": "Ein kleiner Schwarm, jeder mit einem Zweck.\nEine Familie von Vögeln für deine Familie."
+  },
+  "bebebirdie": {
+    "meta": {
+      "title": "BébéBirdie – Beruhigende Klänge für besseren Babyschlaf",
+      "description": "BébéBirdie hilft deinem Baby mit sanften Einschlafklängen einzuschlafen. Offline, kein Konto nötig."
+    },
+    "headline": "Beruhigende Klänge für besseren Babyschlaf",
+    "subtitle": "Sanfte Schlafklänge, damit dein Baby friedlich einschläft. Weich, beruhigend und für die Kleinen gemacht.",
+    "lead": "BébéBirdie hilft deinem Baby mit sanften und beruhigenden Schlafklängen einzuschlafen. Die App bietet eine friedliche Sammlung von Nachtgeräuschen, weichem Ambiente und besänftigenden Tönen, die Babys entspannen und eine gemütliche Abendroutine schaffen. Mit ihrer einfachen Oberfläche und dem entzückenden Eulen-Thema macht BébéBirdie die Schlafenszeit für Babys und Eltern leichter.",
+    "googlePlay": "Jetzt bei Google Play",
+    "features": {
+      "f1": { "title": "Sanfte Schlafklänge", "text": "Eine friedliche Sammlung von Nachtgeräuschen, weichem Ambiente und beruhigenden Tönen, die dein Baby entspannen." },
+      "f2": { "title": "Loop-Modus", "text": "Ununterbrochene Wiedergabe die ganze Nacht – damit du dein Handy nicht noch einmal anfassen musst." },
+      "f3": { "title": "Gemütliches Eulen-Thema", "text": "Entzückendes Eulen-Design und eine ruhige, Sterne-Atmosphäre, die Babys – und Eltern – in Schlafstimmung versetzt." },
+      "f4": { "title": "Offline verfügbar", "text": "Kein Internet in der Nacht nötig. Einfach, intuitiv und vollständig privat – kein Konto erforderlich." }
+    },
+    "footerTagline": "Gib deinem Baby eine friedliche Nacht."
+  },
+  "mamanbird": {
+    "meta": {
+      "title": "MamanBird – Wachstum, Fieber & Schuhgrößen auf einen Blick",
+      "description": "MamanBird ist ein ruhiger Alltagshelfer für Eltern. Wachstum, Fieber und Schuhgrößen verfolgen – einfach, privat, kein Konto nötig."
+    },
+    "headline": "Dein ruhiger Alltagshelfer für Eltern",
+    "subtitle": "Wachstum, Fieber, Schuhgrößen und mehr – einfach, privat, kein Konto nötig. Alle Daten bleiben auf deinem Gerät.",
+    "lead": "Kinder wachsen schnell, und viele kleine Details gehen im Alltagstrubel verloren. MamanBird hilft dir den Überblick zu behalten: Wann war das letzte Fieber? Welche Schuhgröße passt jetzt? Wie groß ist dein Kind? Offline, privat, kein Konto nötig. Einfach öffnen, Eintrag hinzufügen, fertig.",
+    "googlePlay": "Jetzt bei Google Play",
+    "features": {
+      "f1": { "title": "Wachstum, Fieber & Schuhgrößen", "text": "Alle wichtigen Maße deines Kindes an einem Ort. Leicht einzutragen, immer abrufbar." },
+      "f2": { "title": "Offline & privat", "text": "Alle Daten bleiben auf deinem Gerät. Keine Cloud, kein Konto, kein Tracking. Vollständig privat." },
+      "f3": { "title": "Für mehrere Kinder", "text": "Verwalte die Daten aller deiner Kinder in einer App – übersichtlich und sauber getrennt." },
+      "f4": { "title": "Klar & übersichtlich", "text": "Bewusst minimal – keine Werbung, kein Lärm. Einfach öffnen, Eintrag hinzufügen, fertig." }
+    },
+    "footerTagline": "Für Eltern, die einfache, fokussierte Tools bevorzugen."
+  },
+  "coloring": {
+    "meta": {
+      "title": "Kostenlose Ausmalbilder für Kinder – birds.family",
+      "description": "Kostenlose Ausmalbilder für Kinder von birds.family. Veröffentlicht auf Pinterest – folge uns, um neue Blätter nicht zu verpassen."
+    },
+    "headline": "Kostenlose Ausmalbilder für Kinder",
+    "text": "Neue Ausmalbilder kommen bald – direkt auf Pinterest veröffentlicht.\nFolge uns dort, um kein neues Blatt zu verpassen.",
+    "pinterestAlt": "Auf Pinterest folgen",
+    "pinterestLabel": "birds.family auf Pinterest folgen",
+    "backLink": "← zurück zu birds.family"
+  }
+}

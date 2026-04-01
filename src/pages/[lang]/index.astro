@@ -1,0 +1,120 @@
+---
+/**
+ * /src/pages/[lang]/index.astro
+ * Generated routes: /en/, /de/, /fr/
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getLanguagePaths, LANGUAGES } from '../../utils/i18n.js';
+
+import en from '../../locales/en.json';
+import de from '../../locales/de.json';
+import fr from '../../locales/fr.json';
+
+const locales = { en, de, fr };
+
+export function getStaticPaths() {
+  return getLanguagePaths();
+}
+
+const { lang } = Astro.params as { lang: 'en' | 'de' | 'fr' };
+const t = locales[lang];
+---
+<BaseLayout lang={lang} t={t} currentPath="">
+
+  <!-- Hub Hero -->
+  <header class="hub-hero">
+    <div class="container">
+      <h1>{t.hero.headline}</h1>
+      <p class="subtitle">{t.hero.subtitle}</p>
+      <div class="hub-hero-image">
+        <img src="/images/header_var1_cut.png" alt={t.hero.imgAlt} />
+      </div>
+    </div>
+  </header>
+
+  <!-- Apps Grid -->
+  <section class="hub-apps" aria-label={t.apps.sectionLabel}>
+    <div class="container">
+      <div class="apps-grid">
+
+        <!-- SouvenirBird -->
+        <a href={`/${lang}/souvenirbird/`} class="app-card">
+          <div class="app-card-icon">
+            <img src="/images/SouvenirBird_clear_cut.png" alt="SouvenirBird" />
+          </div>
+          <h3>SouvenirBird</h3>
+          <p>{t.apps.souvenirbird.description}</p>
+          <span class="app-card-status live">{t.apps.statusLive}</span>
+        </a>
+
+        <!-- BébéBirdie -->
+        <a href={`/${lang}/bebebirdie/`} class="app-card">
+          <div class="app-card-icon">
+            <img src="/images/BebeBirdie_clear_cut.png" alt="BébéBirdie" />
+          </div>
+          <h3>BébéBirdie</h3>
+          <p>{t.apps.bebebirdie.description}</p>
+          <span class="app-card-status live">{t.apps.statusLive}</span>
+        </a>
+
+        <!-- DadBird (placeholder) -->
+        <div class="app-card placeholder">
+          <div class="app-card-icon">
+            <img src="/images/DadBird_clear_cut.png" alt="DadBird" />
+          </div>
+          <h3>DadBird</h3>
+          <p>{t.apps.dadbird.description}</p>
+          <span class="app-card-status soon">{t.apps.statusSoon}</span>
+        </div>
+
+        <!-- MamanBird -->
+        <a href={`/${lang}/mamanbird/`} class="app-card">
+          <div class="app-card-icon">
+            <img src="/images/MamanBird_clear_cut.png" alt="MamanBird" />
+          </div>
+          <h3>MamanBird</h3>
+          <p>{t.apps.mamanbird.description}</p>
+          <span class="app-card-status live">{t.apps.statusLive}</span>
+        </a>
+
+        <!-- ItemBird (placeholder) -->
+        <div class="app-card placeholder">
+          <div class="app-card-icon">
+            <img src="/images/ItemBird_clear_cut.png" alt="ItemBird" />
+          </div>
+          <h3>ItemBird</h3>
+          <p>{t.apps.itembird.description}</p>
+          <span class="app-card-status soon">{t.apps.statusSoon}</span>
+        </div>
+
+        <!-- More birds placeholder -->
+        <div class="app-card placeholder">
+          <div class="app-card-icon placeholder-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="#B8E6D5" stroke-width="1.5" />
+              <path d="M8 12h8M12 8v8" stroke="#B8E6D5" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>{t.apps.moreBirds.headline}</h3>
+          <p>{t.apps.moreBirds.description}</p>
+          <span class="app-card-status soon">{t.apps.statusSoon}</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Teaser -->
+  <section class="story-origin">
+    <div class="container story-origin-container">
+      <p class="story-eyebrow">{t.story.eyebrow}</p>
+      <p class="story-text">
+        {t.story.text.split('\n').map((line: string, i: number) => (
+          <>{line}{i < t.story.text.split('\n').length - 1 && <br />}</>
+        ))}
+      </p>
+      <a href={`/${lang}/about/`} class="story-read-more">{t.story.cta}</a>
+    </div>
+  </section>
+
+</BaseLayout>

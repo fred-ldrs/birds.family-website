@@ -1,0 +1,17 @@
+---
+/**
+ * Root index – redirects visitors to the default language (/en/).
+ * Astro's static redirects config handles the 301; this page is a fallback.
+ */
+---
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; url=/en/" />
+  <link rel="canonical" href="/en/" />
+</head>
+<body>
+  <a href="/en/">Redirecting to /en/…</a>
+</body>
+</html>
